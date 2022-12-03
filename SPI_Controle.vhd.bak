@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity SPI_Controle is
+  port (
+    i_SClk	: in  std_logic;
+    i_Mosi  : in  std_logic;
+    i_Ss 	: in  std_logic;
+	 o_Data  : out signed(7 downto 0);
+    o_Flag 	: out std_logic	 
+    );
+end entity SPI_Controle;
+ 
+architecture RTL of SPI_Controle is 
+  signal data : signed(7 downto 0) := to_signed(0,8);
+  signal flag : std_logic := '0';
+begin
+
+  O_Data <= data;
+  o_Flag <= flag;
+
+  p_Leitura : process (i_Ss, i_Sclk) is
+  variable count : integer := 0;
+  begin
+    if (i_Ss = '0') then
+		if (i_SClk = '1' and i_SClk'event) then
+			if (count < 7) then
+				count := 0;
+				flag <= '1';
+			else
+				data(count) <= i_Mosi;
+				count := count + 1;
+			end if;
+		end if;
+	 else 
+		count := 0;
+		flag <= '0';
+    end if;
+  end process p_Leitura; 
+  
+end architecture RTL;

@@ -1,0 +1,650 @@
+Timing Analyzer report for Ackermann
+Thu Jan 16 10:12:25 2020
+Quartus Prime Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Parallel Compilation
+  4. SDC File List
+  5. Clocks
+  6. Slow 1100mV 85C Model Fmax Summary
+  7. Timing Closure Recommendations
+  8. Slow 1100mV 85C Model Setup Summary
+  9. Slow 1100mV 85C Model Hold Summary
+ 10. Slow 1100mV 85C Model Recovery Summary
+ 11. Slow 1100mV 85C Model Removal Summary
+ 12. Slow 1100mV 85C Model Minimum Pulse Width Summary
+ 13. Slow 1100mV 85C Model Metastability Summary
+ 14. Slow 1100mV 0C Model Fmax Summary
+ 15. Slow 1100mV 0C Model Setup Summary
+ 16. Slow 1100mV 0C Model Hold Summary
+ 17. Slow 1100mV 0C Model Recovery Summary
+ 18. Slow 1100mV 0C Model Removal Summary
+ 19. Slow 1100mV 0C Model Minimum Pulse Width Summary
+ 20. Slow 1100mV 0C Model Metastability Summary
+ 21. Fast 1100mV 85C Model Setup Summary
+ 22. Fast 1100mV 85C Model Hold Summary
+ 23. Fast 1100mV 85C Model Recovery Summary
+ 24. Fast 1100mV 85C Model Removal Summary
+ 25. Fast 1100mV 85C Model Minimum Pulse Width Summary
+ 26. Fast 1100mV 85C Model Metastability Summary
+ 27. Fast 1100mV 0C Model Setup Summary
+ 28. Fast 1100mV 0C Model Hold Summary
+ 29. Fast 1100mV 0C Model Recovery Summary
+ 30. Fast 1100mV 0C Model Removal Summary
+ 31. Fast 1100mV 0C Model Minimum Pulse Width Summary
+ 32. Fast 1100mV 0C Model Metastability Summary
+ 33. Multicorner Timing Analysis Summary
+ 34. Board Trace Model Assignments
+ 35. Input Transition Times
+ 36. Signal Integrity Metrics (Slow 1100mv 0c Model)
+ 37. Signal Integrity Metrics (Slow 1100mv 85c Model)
+ 38. Signal Integrity Metrics (Fast 1100mv 0c Model)
+ 39. Signal Integrity Metrics (Fast 1100mv 85c Model)
+ 40. Clock Transfers
+ 41. Report TCCS
+ 42. Report RSKM
+ 43. Unconstrained Paths Summary
+ 44. Clock Status Summary
+ 45. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; Ackermann                                           ;
+; Device Family         ; Cyclone V                                           ;
+; Device Name           ; 5CSEMA5F31C6                                        ;
+; Timing Models         ; Final                                               ;
+; Delay Model           ; Combined                                            ;
+; Rise/Fall Delays      ; Enabled                                             ;
++-----------------------+-----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------+
+; SDC File List                                     ;
++---------------+--------+--------------------------+
+; SDC File Path ; Status ; Read at                  ;
++---------------+--------+--------------------------+
+; Ackermann.sdc ; OK     ; Thu Jan 16 10:12:19 2020 ;
++---------------+--------+--------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                               ;
++------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+; Clock Name ; Type ; Period ; Frequency ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets      ;
++------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+; CLOCK_50   ; Base ; 20.000 ; 50.0 MHz  ; 0.000 ; 10.000 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { CLOCK_50 } ;
++------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+
+
+--------------------------------------
+; Slow 1100mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1100mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1100mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1100mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1100mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1100mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
+-----------------------------------------------
+; Slow 1100mV 85C Model Metastability Summary ;
+-----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1100mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1100mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1100mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1100mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1100mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1100mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
+----------------------------------------------
+; Slow 1100mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+---------------------------------------
+; Fast 1100mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Fast 1100mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast 1100mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1100mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Fast 1100mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
+-----------------------------------------------
+; Fast 1100mV 85C Model Metastability Summary ;
+-----------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1100mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1100mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1100mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1100mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1100mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
+----------------------------------------------
+; Fast 1100mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                 ;
++------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin        ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; PORTBGPIO2 ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++-----------------------------------------------------------------+
+; Input Transition Times                                          ;
++--------------+--------------+-----------------+-----------------+
+; Pin          ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++--------------+--------------+-----------------+-----------------+
+; CLOCK_50     ; 3.3-V LVTTL  ; 2640 ps         ; 2640 ps         ;
+; PORTBGPIO0   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTBGPIO1   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO0   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTABPIO[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO2   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO3   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO4   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO5   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO6   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO7   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO8   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO9   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO10  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO11  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO12  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO13  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO14  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO15  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO16  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO17  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO18  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO19  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO20  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO21  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO22  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO23  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO24  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO25  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO26  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO27  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO28  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO29  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO30  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO31  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO32  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; PORTAGPIO33  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++--------------+--------------+-----------------+-----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1100mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin        ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; PORTBGPIO2 ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.52e-07 V                   ; 2.42 V              ; -0.0557 V           ; 0.175 V                              ; 0.114 V                              ; 4.5e-10 s                   ; 4.35e-10 s                  ; No                         ; No                         ; 2.32 V                      ; 3.52e-07 V                  ; 2.42 V             ; -0.0557 V          ; 0.175 V                             ; 0.114 V                             ; 4.5e-10 s                  ; 4.35e-10 s                 ; No                        ; No                        ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1100mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin        ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; PORTBGPIO2 ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.88e-05 V                   ; 2.39 V              ; -0.037 V            ; 0.188 V                              ; 0.158 V                              ; 4.67e-10 s                  ; 4.67e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.88e-05 V                  ; 2.39 V             ; -0.037 V           ; 0.188 V                             ; 0.158 V                             ; 4.67e-10 s                 ; 4.67e-10 s                 ; No                        ; Yes                       ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1100mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin        ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; PORTBGPIO2 ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 4.14e-06 V                   ; 2.91 V              ; -0.121 V            ; 0.326 V                              ; 0.297 V                              ; 2.74e-10 s                  ; 2.8e-10 s                   ; No                         ; No                         ; 2.75 V                      ; 4.14e-06 V                  ; 2.91 V             ; -0.121 V           ; 0.326 V                             ; 0.297 V                             ; 2.74e-10 s                 ; 2.8e-10 s                  ; No                        ; No                        ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1100mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin        ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; PORTBGPIO2 ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.75 V                       ; 0.000242 V                   ; 2.86 V              ; -0.0814 V           ; 0.36 V                               ; 0.156 V                              ; 3e-10 s                     ; 4.34e-10 s                  ; No                         ; No                         ; 2.75 V                      ; 0.000242 V                  ; 2.86 V             ; -0.0814 V          ; 0.36 V                              ; 0.156 V                             ; 3e-10 s                    ; 4.34e-10 s                 ; No                        ; No                        ;
++------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 0     ; 0    ;
+; Unconstrained Output Port Paths ; 0     ; 0    ;
++---------------------------------+-------+------+
+
+
++------------------------------------------+
+; Clock Status Summary                     ;
++----------+----------+------+-------------+
+; Target   ; Clock    ; Type ; Status      ;
++----------+----------+------+-------------+
+; CLOCK_50 ; CLOCK_50 ; Base ; Constrained ;
++----------+----------+------+-------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+    Info: Processing started: Thu Jan 16 10:12:16 2020
+Info: Command: quartus_sta Ackermann -c Ackermann
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332104): Reading SDC File: 'Ackermann.sdc'
+Warning (332174): Ignored filter at Ackermann.sdc(10): CLOCK2_50 could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 10
+Warning (332049): Ignored create_clock at Ackermann.sdc(10): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 10
+    Info (332050): create_clock -period 20.000ns [get_ports CLOCK2_50] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 10
+Warning (332174): Ignored filter at Ackermann.sdc(11): CLOCK3_50 could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 11
+Warning (332049): Ignored create_clock at Ackermann.sdc(11): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 11
+    Info (332050): create_clock -period 20.000ns [get_ports CLOCK3_50] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 11
+Warning (332174): Ignored filter at Ackermann.sdc(12): CLOCK4_50 could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 12
+Warning (332049): Ignored create_clock at Ackermann.sdc(12): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 12
+    Info (332050): create_clock -period 20.000ns [get_ports CLOCK4_50] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 12
+Warning (332174): Ignored filter at Ackermann.sdc(14): TD_CLK27 could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 14
+Warning (332049): Ignored create_clock at Ackermann.sdc(14): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 14
+    Info (332050): create_clock -period "27 MHz"  -name tv_27m [get_ports TD_CLK27] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 14
+Warning (332174): Ignored filter at Ackermann.sdc(15): DRAM_CLK could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 15
+Warning (332049): Ignored create_clock at Ackermann.sdc(15): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 15
+    Info (332050): create_clock -period "100 MHz" -name clk_dram [get_ports DRAM_CLK] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 15
+Warning (332174): Ignored filter at Ackermann.sdc(17): AUD_XCK could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 17
+Warning (332049): Ignored create_clock at Ackermann.sdc(17): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 17
+    Info (332050): create_clock -period "18.432 MHz" -name clk_audxck [get_ports AUD_XCK] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 17
+Warning (332174): Ignored filter at Ackermann.sdc(18): AUD_BCLK could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 18
+Warning (332049): Ignored create_clock at Ackermann.sdc(18): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 18
+    Info (332050): create_clock -period "1.536 MH" -name clk_audbck [get_ports AUD_BCLK] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 18
+Warning (332049): Ignored create_clock at Ackermann.sdc(18): Time value "1.536 MH" is not valid File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 18
+Warning (332049): Ignored create_clock at Ackermann.sdc(18): Option -period: Invalid clock period File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 18
+Warning (332174): Ignored filter at Ackermann.sdc(26): VGA_CLK could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 26
+Warning (332049): Ignored create_clock at Ackermann.sdc(26): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 26
+    Info (332050): create_clock -period "108.0 MHz" -name clk_vga [get_ports VGA_CLK] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 26
+Warning (332174): Ignored filter at Ackermann.sdc(29): altera_reserved_tck could not be matched with a port or pin or register or keeper or net or combinational node or node File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 29
+Warning (332049): Ignored create_clock at Ackermann.sdc(29): Argument <targets> is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 29
+    Info (332050): create_clock -name {altera_reserved_tck} -period 40 {altera_reserved_tck} File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 29
+Warning (332174): Ignored filter at Ackermann.sdc(30): altera_reserved_tdi could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 30
+Warning (332174): Ignored filter at Ackermann.sdc(30): altera_reserved_tck could not be matched with a clock File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 30
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(30): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 30
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tdi] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 30
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(30): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 30
+Warning (332174): Ignored filter at Ackermann.sdc(31): altera_reserved_tms could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 31
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(31): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 31
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tms] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 31
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(31): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 31
+Warning (332174): Ignored filter at Ackermann.sdc(32): altera_reserved_tdo could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 32
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(32): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 32
+    Info (332050): set_output_delay -clock altera_reserved_tck 3 [get_ports altera_reserved_tdo] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 32
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(32): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 32
+Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Warning (332174): Ignored filter at Ackermann.sdc(58): DRAM_DQ* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 58
+Warning (332174): Ignored filter at Ackermann.sdc(58): clk_dram could not be matched with a clock File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 58
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(58): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 58
+    Info (332050): set_input_delay -max -clock clk_dram -0.048 [get_ports DRAM_DQ*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 58
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(58): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 58
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(59): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 59
+    Info (332050): set_input_delay -min -clock clk_dram -0.057 [get_ports DRAM_DQ*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 59
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(59): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 59
+Warning (332174): Ignored filter at Ackermann.sdc(61): TD_DATA* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 61
+Warning (332174): Ignored filter at Ackermann.sdc(61): tv_27m could not be matched with a clock File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 61
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(61): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 61
+    Info (332050): set_input_delay -max -clock tv_27m 3.508 -clock_fall [get_ports TD_DATA*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 61
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(61): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 61
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(62): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 62
+    Info (332050): set_input_delay -min -clock tv_27m -2.539 -clock_fall [get_ports TD_DATA*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 62
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(62): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 62
+Warning (332174): Ignored filter at Ackermann.sdc(63): TD_HS could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 63
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(63): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 63
+    Info (332050): set_input_delay -max -clock tv_27m 3.654 -clock_fall [get_ports TD_HS] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 63
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(63): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 63
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(64): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 64
+    Info (332050): set_input_delay -min -clock tv_27m -2.454 -clock_fall [get_ports TD_HS] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 64
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(64): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 64
+Warning (332174): Ignored filter at Ackermann.sdc(65): TD_VS could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 65
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(65): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 65
+    Info (332050): set_input_delay -max -clock tv_27m 3.652 -clock_fall [get_ports TD_VS] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 65
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(65): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 65
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(66): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 66
+    Info (332050): set_input_delay -min -clock tv_27m -2.456 -clock_fall [get_ports TD_VS] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 66
+Warning (332049): Ignored set_input_delay at Ackermann.sdc(66): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 66
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(76): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 76
+    Info (332050): set_output_delay -max -clock clk_dram 1.452  [get_ports DRAM_DQ*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 76
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(76): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 76
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(77): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 77
+    Info (332050): set_output_delay -min -clock clk_dram -0.857 [get_ports DRAM_DQ*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 77
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(77): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 77
+Warning (332174): Ignored filter at Ackermann.sdc(78): DRAM_ADDR* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 78
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(78): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 78
+    Info (332050): set_output_delay -max -clock clk_dram 1.531 [get_ports DRAM_ADDR*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 78
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(78): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 78
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(79): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 79
+    Info (332050): set_output_delay -min -clock clk_dram -0.805 [get_ports DRAM_ADDR*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 79
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(79): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 79
+Warning (332174): Ignored filter at Ackermann.sdc(80): DRAM_*DQM could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 80
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(80): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 80
+    Info (332050): set_output_delay -max -clock clk_dram 1.533  [get_ports DRAM_*DQM] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 80
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(80): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 80
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(81): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 81
+    Info (332050): set_output_delay -min -clock clk_dram -0.805 [get_ports DRAM_*DQM] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 81
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(81): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 81
+Warning (332174): Ignored filter at Ackermann.sdc(82): DRAM_BA* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 82
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(82): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 82
+    Info (332050): set_output_delay -max -clock clk_dram 1.510  [get_ports DRAM_BA*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 82
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(82): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 82
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(83): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 83
+    Info (332050): set_output_delay -min -clock clk_dram -0.800 [get_ports DRAM_BA*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 83
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(83): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 83
+Warning (332174): Ignored filter at Ackermann.sdc(84): DRAM_RAS_N could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 84
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(84): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 84
+    Info (332050): set_output_delay -max -clock clk_dram 1.520  [get_ports DRAM_RAS_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 84
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(84): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 84
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(85): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 85
+    Info (332050): set_output_delay -min -clock clk_dram -0.780 [get_ports DRAM_RAS_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 85
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(85): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 85
+Warning (332174): Ignored filter at Ackermann.sdc(86): DRAM_CAS_N could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 86
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(86): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 86
+    Info (332050): set_output_delay -max -clock clk_dram 1.5000  [get_ports DRAM_CAS_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 86
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(86): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 86
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(87): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 87
+    Info (332050): set_output_delay -min -clock clk_dram -0.800 [get_ports DRAM_CAS_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 87
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(87): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 87
+Warning (332174): Ignored filter at Ackermann.sdc(88): DRAM_WE_N could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 88
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(88): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 88
+    Info (332050): set_output_delay -max -clock clk_dram 1.545 [get_ports DRAM_WE_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 88
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(88): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 88
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(89): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 89
+    Info (332050): set_output_delay -min -clock clk_dram -0.755 [get_ports DRAM_WE_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 89
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(89): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 89
+Warning (332174): Ignored filter at Ackermann.sdc(90): DRAM_CKE could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 90
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(90): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 90
+    Info (332050): set_output_delay -max -clock clk_dram 1.496  [get_ports DRAM_CKE] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 90
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(90): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 90
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(91): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 91
+    Info (332050): set_output_delay -min -clock clk_dram -0.804 [get_ports DRAM_CKE] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 91
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(91): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 91
+Warning (332174): Ignored filter at Ackermann.sdc(92): DRAM_CS_N could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 92
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(92): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 92
+    Info (332050): set_output_delay -max -clock clk_dram 1.508  [get_ports DRAM_CS_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 92
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(92): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 92
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(93): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 93
+    Info (332050): set_output_delay -min -clock clk_dram -0.792 [get_ports DRAM_CS_N] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 93
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(93): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 93
+Warning (332174): Ignored filter at Ackermann.sdc(95): VGA_R* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 95
+Warning (332174): Ignored filter at Ackermann.sdc(95): clk_vga could not be matched with a clock File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 95
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(95): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 95
+    Info (332050): set_output_delay -max -clock clk_vga 0.220 [get_ports VGA_R*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 95
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(95): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 95
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(96): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 96
+    Info (332050): set_output_delay -min -clock clk_vga -1.506 [get_ports VGA_R*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 96
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(96): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 96
+Warning (332174): Ignored filter at Ackermann.sdc(97): VGA_G* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 97
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(97): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 97
+    Info (332050): set_output_delay -max -clock clk_vga 0.212 [get_ports VGA_G*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 97
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(97): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 97
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(98): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 98
+    Info (332050): set_output_delay -min -clock clk_vga -1.519 [get_ports VGA_G*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 98
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(98): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 98
+Warning (332174): Ignored filter at Ackermann.sdc(99): VGA_B* could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 99
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(99): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 99
+    Info (332050): set_output_delay -max -clock clk_vga 0.264 [get_ports VGA_B*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 99
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(99): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 99
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(100): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 100
+    Info (332050): set_output_delay -min -clock clk_vga -1.519 [get_ports VGA_B*] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 100
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(100): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 100
+Warning (332174): Ignored filter at Ackermann.sdc(101): VGA_BLANK could not be matched with a port File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 101
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(101): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 101
+    Info (332050): set_output_delay -max -clock clk_vga 0.215 [get_ports VGA_BLANK] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 101
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(101): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 101
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(102): Argument <targets> is an empty collection File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 102
+    Info (332050): set_output_delay -min -clock clk_vga -1.485 [get_ports VGA_BLANK] File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 102
+Warning (332049): Ignored set_output_delay at Ackermann.sdc(102): Argument -clock is not an object ID File: C:/Users/leobo/Desktop/Ackermann/Ackermann.sdc Line: 102
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1100mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1100mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1100mV 85C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1100mV 0C Model
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332101): Design is fully constrained for setup requirements
+Info (332101): Design is fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 118 warnings
+    Info: Peak virtual memory: 5087 megabytes
+    Info: Processing ended: Thu Jan 16 10:12:25 2020
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:08
+
+

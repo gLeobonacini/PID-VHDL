@@ -1,0 +1,59 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity Intermediario_Mult is
+
+  port (
+	 i_Clk		: in  std_logic;
+	 i_Flag 		: in  std_logic;
+    i_A		 	: in  signed(31 downto 0);
+	 i_B 			: in  signed(31 downto 0);
+	 o_Flag		: out std_logic;
+	 o_A			: out signed(31 downto 0);
+	 o_B		 	: out signed(31 downto 0);
+	 o_Clk		: out std_logic
+
+    );
+end entity Intermediario_Mult;
+
+architecture RTL of Intermediario_Mult is
+begin
+  
+  o_A 	<= i_A;
+  o_B 	<= i_B;
+  
+  
+  p_Intermediario_Mult : process (i_Clk) is
+  
+  variable count		: integer	:= 0;
+  variable inicio		: std_logic	:= '0';
+  
+  begin
+	
+	if (i_Clk = '0' and i_Clk'event) then
+		
+		o_Clk <= '0';
+		
+		if (i_Flag = '1' and count < 12) then
+			inicio := '1';
+			count := count + 1;
+		elsif (count < 12) then
+			count := count + 1;
+		elsif (count = 12) then
+			o_Flag <= '1';
+			inicio := '0';
+			count := count + 1;
+		else
+			o_Flag <= '0';
+			count := 0;
+		end if;
+	
+	elsif(i_Clk = '1' and i_Clk'event) then
+		if (inicio = '1') then
+			o_Clk <= '1';
+		end if;	
+	end if;
+  
+  end process p_Intermediario_Mult; 
+end architecture RTL;

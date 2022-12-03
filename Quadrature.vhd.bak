@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity Quadrature is
+  port (
+    i_bin : in  std_logic;
+	 i_ena : in  std_logic;
+    o_dir : out std_logic
+    );
+end entity Quadrature;
+ 
+architecture RTL of Quadrature is
+	signal r_State : std_logic := '0';
+begin
+ 
+  process
+  begin
+    if (i_ena) then
+		
+		-- Entrada for igual ao estado e contador menor que limite
+      if (i_bin) then
+        o_dir <= 1;
+ 
+      -- Se são diferentes, reseta contador
+      else
+        o_dir <= 0;
+ 
+      end if;
+    end if;
+  end process;
+ 
+  -- Saída do módulo
+  o_dir <= r_State;
+ 
+end architecture RTL;

@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity Debounce_Encoder is
+  port (
+    i_Clk 		: in  std_logic;
+	 i_Flag		: in  std_logic;
+    i_servo 	: in  signed (31 downto 0);
+    o_modulada : out std_logic
+    );
+end entity Debounce_Encoder;
+ 
+architecture RTL of Debounce_Encoder is
+ 
+  -- Clock 50 MHz, Contador até 1000000
+  constant CICLO_SERVO : unsigned(31 downto 0) := to_unsigned(1000000,32);
+  signal r_State : std_logic := 'X';
+ 
+begin
+   -- Saída do módulo
+  o_modulada <= r_State;
+  
+  p_Debounce : process (i_Clk) is
+  variable r_Count : signed(31 downto 0) := to_unsigned(0,10);
+  begin
+    if (i_Clk = '1' and i_Clk'event) then	
+		r_Count := r_Count + to_unsigned(1,32);
+		
+		-- Verifica se chegou no máximo do valor em alto
+      if (r_Count <=  and r_Count < c_DEBOUNCE_LIMIT) then
+        r_Count <= r_Count + to_unsigned(1,10);
+      -- Chegou ao limite, então muda valor da variável e reseta contador
+      elsif (r_Count = c_DEBOUNCE_LIMIT) then
+        r_State <= i_Enc;
+        r_Count <= to_unsigned(0,10);
+      -- Se são iguais, reseta contador
+      else
+        r_Count <= to_unsigned(0,10);
+ 
+      end if;
+    end if;
+  end process p_Debounce; 
+end architecture RTL;

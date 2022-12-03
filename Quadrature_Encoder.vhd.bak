@@ -1,0 +1,63 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity Quadrature_Encoder is
+  port (
+    i_Clk	: in  std_logic;
+    i_A 	 	: in  std_logic;
+    i_B 	 	: in  std_logic;
+	 o_Count : out std_logic;
+    o_Dir 	: out std_logic
+    );
+end entity Quadrature_Encoder;
+ 
+architecture RTL of Quadrature_Encoder is 
+  signal Q1 : std_logic := '0';
+  signal Q2 : std_logic := '0';
+  signal Q3 : std_logic := '0';
+  signal Q4 : std_logic := '0';
+  signal Q5 : std_logic := '0';
+  signal Q6 : std_logic := '0';
+begin
+
+   -- Saída do módulo
+  o_Enc <= r_State;
+  
+  p_FF_D1 : process (i_Clk) is
+  begin
+    if (i_Clk = '1' and i_Clk'event)then	
+    end if;
+  end process p_FF_D1; 
+  
+  p_FF_D2 : process (i_Clk) is
+  begin
+    if (i_Clk = '1' and i_Clk'event)then	
+    end if;
+  end process p_FF_D2; 
+  
+  p_FF_D3 : process (i_Clk) is
+  begin
+    if (i_Clk = '1' and i_Clk'event)then	
+    end if;
+  end process p_FF_D3; 
+  
+  p_FF_D4 : process (i_Clk) is
+  begin
+    if (i_Clk = '1' and i_Clk'event)then	
+    end if;
+  end process p_FF_D4; 
+  
+  p_FF_D5 : process (i_Clk) is
+  begin
+    if (i_Clk = '1' and i_Clk'event)then	
+    end if;
+  end process p_FF_D5; 
+  
+  p_FF_D6 : process (i_Clk) is
+  begin
+    if (i_Clk = '1' and i_Clk'event)then	
+    end if;
+  end process p_FF_D6;
+  
+end architecture RTL;

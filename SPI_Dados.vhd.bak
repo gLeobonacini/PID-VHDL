@@ -1,0 +1,43 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity SPI_Dados is
+  port (
+    i_SClk		: in  std_logic;
+    i_Mosi  	: in  std_logic;
+    i_Ss 		: in  std_logic;
+	 o_Data		: out signed(31 downto 0);
+	 o_CheckSum : out signed(7 downto 0);
+    o_Flag 		: out std_logic	 
+    );
+end entity SPI_Dados;
+ 
+architecture RTL of SPI_Dados is 
+  signal data : signed(31 downto 0) := to_signed(0,8);
+  signal flag : std_logic := '0';
+begin
+
+  O_Data_1 <= data;
+  o_Flag <= flag;
+
+  p_Leitura : process (i_Ss, i_Sclk) is
+  variable count : integer := 0;
+  begin
+    if (i_Ss = '0') then
+		if (i_SClk = '1' and i_SClk'event) then
+			if (count < 31) then
+				count := 0;
+				flag <= '1';
+			else
+				data(count) <= i_Mosi;
+				count := count + 1;
+			end if;
+		end if;
+	 else 
+		count := 0;
+		flag <= '0';
+    end if;
+  end process p_Leitura; 
+  
+end architecture RTL;

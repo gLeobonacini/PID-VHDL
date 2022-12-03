@@ -1,0 +1,43 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity SPI_Demux is
+  port (
+    i_Flag_Controle	: in  std_logic;
+    i_Flag_Dados 		: in  std_logic;
+    i_Flag_Dados		: in  std_logic;
+	 o_Flag				: out  std_logic;
+	 o_Velocidade		: out signed(31 downto 0);
+    o_Servo				: out signed(31 downto 0)	 
+    );
+end entity SPI_Demux;
+ 
+architecture RTL of SPI_Demux is 
+  signal data : signed(31 downto 0) := to_signed(0,32);
+  signal flag : std_logic := '0';
+begin
+
+  O_Data <= data;
+  o_Flag <= flag;
+
+  p_Leitura : process (i_Ss, i_Sclk) is
+  variable count : integer := 0;
+  begin
+    if (i_Ss = '0') then
+		if (i_SClk = '1' and i_SClk'event) then
+			if (count >= 31) then
+				count := 0;
+				flag <= '1';
+			else
+				data(count) <= i_Mosi;
+				count := count + 1;
+			end if;
+		end if;
+	 else 
+		count := 0;
+		flag <= '0';
+    end if;
+  end process p_Leitura; 
+  
+end architecture RTL;
